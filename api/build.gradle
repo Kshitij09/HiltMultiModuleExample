@@ -46,6 +46,10 @@ dependencies {
     implementation Libs.Hilt.library
     kapt Libs.Hilt.compiler
 
+    implementation Libs.Retrofit.retrofit
+    implementation Libs.Retrofit.converterMoshi
+    implementation Libs.Moshi.moshiKotlin
+
     testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
