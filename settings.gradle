@@ -1,0 +1,5 @@
+rootProject.name = "Test Multimodule Hilt"
+include ':app'
+include ':api'
+include ':data-android'
+include ':data'
