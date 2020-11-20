@@ -11,17 +11,6 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import javax.inject.Singleton
 
-@InstallIn(ApplicationComponent::class)
-@Module
-object ApiModule {
-
-    @Singleton
-    @Provides
-    fun provideMockApi(): MockApi {
-        return MockApi()
-    }
-}
-
 private const val BASE_URL = "https://jsonplaceholder.typicode.com/"
 
 @InstallIn(ApplicationComponent::class)
